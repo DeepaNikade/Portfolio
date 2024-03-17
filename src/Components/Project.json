@@ -1,0 +1,36 @@
+[
+    {
+      "title": "Chrome Extension",
+      "description": "The YouTube Bookmark Extension is a Chrome browser extension designed to enhance your YouTube viewing experience by allowing you to bookmark specific timestamps within videos, add notes to bookmarks, and easily access them later.",
+      "githubLink": "https://github.com/DeepaNikade/chromeExtension"
+    },
+    {
+      "title": "MonteCarlo e-commerce",
+      "description": "Monte Carlo Shop is an e-commerce platform designed to provide users with a seamless shopping experience. The platform allows users to browse a wide range of products, add items to their cart, and complete the purchase securely.",
+     
+      "githubLink": "https://github.com/DeepaNikade/MONTECARLO"
+    },
+    {
+      "title": "StockMarket Trading",
+      "description": "This project is is to maintain the portfoilo and assests of customer which is used to store and retrive the information.",
+
+     
+      "githubLink": "https://github.com/DeepaNikade/Stock-Market-Trading"
+    },{
+        "title": "Face Mask detection",
+        "description": "This project allows to recognize the person through the data provider to the machine using midepipline and machine learning .",
+  
+       
+        "githubLink": "https://github.com/DeepaNikade/face_mask_detection"
+
+    }
+    ,{
+        "title": "Myntra e-commerce",
+        "description": "Clone of myntra website .",
+  
+       
+        "githubLink": "https://github.com/DeepaNikade/Myntra-E-Commerce-website"
+
+    }
+  ]
+  

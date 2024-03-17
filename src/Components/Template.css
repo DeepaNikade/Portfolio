@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1D1D1D;
+    color: white;
+    font-family: sans-serif;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8b2828; /* Set the color of the scrollbar thumb */
+    border-radius: 5px; /* Optional: Round the corners of the scrollbar thumb */
+  }
+.mainContainer{
+    width: 100%;
+}
+.navbarpart{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    height: 10vh;
+
+}
+.navbarlogo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbaritems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}

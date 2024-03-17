@@ -1,0 +1,125 @@
+.educationcontainer{
+    width: 100%;
+    /* margin-top: 5rem; */
+}
+.education{
+   
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.eduleft{
+    width: 50%;
+}
+.eduleft img{
+    width: 500px;
+    border-radius: 50px;
+    /* box-shadow:0px 1px 5px rgb(223, 36, 98); */
+}
+.eduright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.eduright h1{
+    font-size: 70px;
+}
+.eduright p{
+    font-size: 30px;
+}
+.eduright .degreeinfo{
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+}
+.educationdegree{
+    width: 90%;
+    margin: auto;
+    margin-top: 9rem;
+    
+
+}
+.dgreeheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.maindegree{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.degreeleft{
+    width: 30%;
+   
+}
+.degreeimage {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border:  2px solid rgb(223, 36, 98);
+    box-shadow: 0px 1px 8px rgb(223, 36, 98);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.degreeright {
+    width: 70%;
+    border: 1px solid rgb(223, 36, 98);
+    box-shadow: 0px 1px 8px rgb(223, 36, 98);
+    padding: 30px;
+    /* background-color: rgb(223, 36, 98) !important; */
+}
+
+.rightupperdegree{
+    /* background-color: rgb(223, 36, 98); */
+    font-size: 20px;
+    /* border-bottom:  2px solid white; */
+    padding: 20px;
+    color:  rgb(223, 36, 98);
+}
+.rightupperdegree h1,p{
+    color:  rgb(223, 36, 98);
+}
+.rightlowedegree ul li {
+    margin-bottom: 8px; 
+    font-size: 18px;/* Add some spacing between list items */
+  }
+  
+  .rightlowedegree ul li::before {
+    content: "•"; /* Use a custom bullet character */
+    font-size: 30px;
+    align-self: center;
+    color: rgb(223, 36, 98); /* Set bullet color to pink */
+    margin-right: 8px; /* Add some spacing between bullet and text */
+  }
+
+  .certificates{
+    margin-top: 8rem;
+    width: 90%;
+    margin: auto;
+
+  }
+  .certficateheading{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  .allcertifacte{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  .allcertifacte img{
+    width: 400px;
+  }

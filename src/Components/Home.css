@@ -1,0 +1,182 @@
+.homecontainer{
+    width: 100%;
+    height: 100vh;
+    
+}
+.homeupper{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+    padding: 20px;
+}
+.homeleft{
+    width: 50%;
+    font-size: 30px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  
+    
+}
+.homeleft h1{
+    font-size: 50px;
+}
+.homeleft p{
+    color: rgb(154, 139, 139);
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeright{
+    padding-top: 20px;
+    animation: bounce 4s infinite;
+}
+.homeright img{
+    /* border: 1px solid white; */
+    width: 500px;
+
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-15px);
+      }
+      60% {
+        transform: translateY(-7px);
+      }
+  }
+
+  .homeicons{
+    display: flex;
+    gap: 20px;
+  }
+  .homeicons img{
+    width: 35px;
+  }
+  .homebutton button{
+ padding: 10px 20px;
+ /* border: 2px solid white; */
+ font-size: 18px;
+ background-color: rgb(223, 36, 98);
+ border-radius: 10px;
+  }
+
+
+  .homelower{
+    width: 90%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    
+   
+  }
+  .homelowerheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .homelower1{
+    display: flex;
+    margin-top: 3rem;
+    
+    animation: fadeIn 5s forwards;
+    opacity: 0;
+    
+
+  }
+  .homelowerleft{
+    width: 50%;
+  }
+  .homeloweright{
+    width: 50%;
+  }
+  .homelowerleft img{
+    width: 800px;
+
+  }
+  .homeloweright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+  }
+  .homeloweright h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 36, 98);
+   
+  }
+  .homelowerrightimages img{
+    width: 40px;
+  }
+  .homelowerrightimages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .homelowerpoints ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+  }
+  
+  .homelowerpoints ul li {
+    margin-bottom: 8px; 
+    font-size: 18px;/* Add some spacing between list items */
+  }
+  
+  .homelowerpoints ul li::before {
+    content: "•"; /* Use a custom bullet character */
+    font-size: 30px;
+    align-self: center;
+    color: rgb(223, 36, 98); /* Set bullet color to pink */
+    margin-right: 8px; /* Add some spacing between bullet and text */
+  }
+  .homelowerpoints li span{
+    color: rgb(223, 36, 98);
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.homelowerleft {
+    width: 50%;
+    animation: slideInLeft 2s forwards;
+}
+
+.homeloweright {
+    width: 50%;
+    animation: slideInRight 2s forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

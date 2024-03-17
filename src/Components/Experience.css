@@ -1,0 +1,17 @@
+.experiencecontainer{
+    width: 100%;
+}
+.experience{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 5rem;
+}
+.exleft img{
+    width: 500px;
+}
+.exright{
+    font-size: 40px;
+}

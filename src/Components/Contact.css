@@ -1,0 +1,39 @@
+.conatctcontainer{
+    width: 100%;
+
+}
+.maincontact{
+    width: 90%;
+    margin: auto;
+    display: flex;
+margin-top: 5rem;
+
+}
+.leftcontact{
+    width: 50%;
+}
+.rightcontact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightcontact h1{
+    font-size: 50px;
+
+}
+.rightcontact p{
+    font-size: 28px;
+    text-align: center;
+    /* color: gray; */
+}
+.conatacticons img{
+    width: 30px;
+   
+}
+.conatacticons{
+    display: flex;
+    gap: 10px;
+}
+
